@@ -8,24 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		186763082149636E004BF4D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 186763072149636E004BF4D8 /* AppDelegate.m */; };
-		1867630B2149636E004BF4D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1867630A2149636E004BF4D8 /* ViewController.m */; };
 		1867630E2149636E004BF4D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1867630C2149636E004BF4D8 /* Main.storyboard */; };
 		186763102149636F004BF4D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1867630F2149636F004BF4D8 /* Assets.xcassets */; };
 		186763132149636F004BF4D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186763112149636F004BF4D8 /* LaunchScreen.storyboard */; };
 		186763162149636F004BF4D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 186763152149636F004BF4D8 /* main.m */; };
+		18EC00E12149791100BB884F /* YXRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EC00E02149791100BB884F /* YXRootViewController.m */; };
+		C576F29992D4CBB6A9451FA1 /* libPods-YXGame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C21A6E5D2A2080DA6680B5E /* libPods-YXGame.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		186763032149636E004BF4D8 /* YXGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		186763062149636E004BF4D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		186763072149636E004BF4D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		186763092149636E004BF4D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1867630A2149636E004BF4D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1867630D2149636E004BF4D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1867630F2149636F004BF4D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		186763122149636F004BF4D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		186763142149636F004BF4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186763152149636F004BF4D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18EC00DF2149791100BB884F /* YXRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXRootViewController.h; sourceTree = "<group>"; };
+		18EC00E02149791100BB884F /* YXRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXRootViewController.m; sourceTree = "<group>"; };
+		7086AFC79E2346CAE07F7E78 /* Pods-YXGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXGame/Pods-YXGame.release.xcconfig"; sourceTree = "<group>"; };
+		7C21A6E5D2A2080DA6680B5E /* libPods-YXGame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXGame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF6AF45F01042668DD6D746 /* Pods-YXGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXGame/Pods-YXGame.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C576F29992D4CBB6A9451FA1 /* libPods-YXGame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				186763052149636E004BF4D8 /* YXGame */,
 				186763042149636E004BF4D8 /* Products */,
+				D19157701C8302CB9BF61815 /* Pods */,
+				7C855F227C0AA53FA9775EA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +67,8 @@
 			children = (
 				186763062149636E004BF4D8 /* AppDelegate.h */,
 				186763072149636E004BF4D8 /* AppDelegate.m */,
-				186763092149636E004BF4D8 /* ViewController.h */,
-				1867630A2149636E004BF4D8 /* ViewController.m */,
+				18EC00DF2149791100BB884F /* YXRootViewController.h */,
+				18EC00E02149791100BB884F /* YXRootViewController.m */,
 				1867630C2149636E004BF4D8 /* Main.storyboard */,
 				1867630F2149636F004BF4D8 /* Assets.xcassets */,
 				186763112149636F004BF4D8 /* LaunchScreen.storyboard */,
@@ -71,6 +78,23 @@
 			path = YXGame;
 			sourceTree = "<group>";
 		};
+		7C855F227C0AA53FA9775EA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C21A6E5D2A2080DA6680B5E /* libPods-YXGame.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D19157701C8302CB9BF61815 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FF6AF45F01042668DD6D746 /* Pods-YXGame.debug.xcconfig */,
+				7086AFC79E2346CAE07F7E78 /* Pods-YXGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +102,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 186763192149636F004BF4D8 /* Build configuration list for PBXNativeTarget "YXGame" */;
 			buildPhases = (
+				91A7618C2B6AD669E4CC172D /* [CP] Check Pods Manifest.lock */,
 				186762FF2149636E004BF4D8 /* Sources */,
 				186763002149636E004BF4D8 /* Frameworks */,
 				186763012149636E004BF4D8 /* Resources */,
@@ -97,6 +122,7 @@
 		186762FB2149636E004BF4D8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YX;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = xiongzhengrui;
 				TargetAttributes = {
@@ -136,12 +162,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		91A7618C2B6AD669E4CC172D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YXGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		186762FF2149636E004BF4D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1867630B2149636E004BF4D8 /* ViewController.m in Sources */,
+				18EC00E12149791100BB884F /* YXRootViewController.m in Sources */,
 				186763162149636F004BF4D8 /* main.m in Sources */,
 				186763082149636E004BF4D8 /* AppDelegate.m in Sources */,
 			);
@@ -281,6 +328,7 @@
 		};
 		1867631A2149636F004BF4D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FF6AF45F01042668DD6D746 /* Pods-YXGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +346,7 @@
 		};
 		1867631B2149636F004BF4D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7086AFC79E2346CAE07F7E78 /* Pods-YXGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
