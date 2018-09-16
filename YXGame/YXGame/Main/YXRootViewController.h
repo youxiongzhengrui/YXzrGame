@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YXRootViewController : UIViewController
+@interface YXRootViewController : UITabBarController
 
 @end

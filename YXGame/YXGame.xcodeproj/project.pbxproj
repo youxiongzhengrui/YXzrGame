@@ -44,6 +44,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1804536E214ABF0E0097A582 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				18EC00DF2149791100BB884F /* YXRootViewController.h */,
+				18EC00E02149791100BB884F /* YXRootViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1804536F214ABF240097A582 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1867630C2149636E004BF4D8 /* Main.storyboard */,
+				1867630F2149636F004BF4D8 /* Assets.xcassets */,
+				186763112149636F004BF4D8 /* LaunchScreen.storyboard */,
+				186763142149636F004BF4D8 /* Info.plist */,
+				186763152149636F004BF4D8 /* main.m */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		186762FA2149636E004BF4D8 = {
 			isa = PBXGroup;
 			children = (
@@ -67,13 +88,8 @@
 			children = (
 				186763062149636E004BF4D8 /* AppDelegate.h */,
 				186763072149636E004BF4D8 /* AppDelegate.m */,
-				18EC00DF2149791100BB884F /* YXRootViewController.h */,
-				18EC00E02149791100BB884F /* YXRootViewController.m */,
-				1867630C2149636E004BF4D8 /* Main.storyboard */,
-				1867630F2149636F004BF4D8 /* Assets.xcassets */,
-				186763112149636F004BF4D8 /* LaunchScreen.storyboard */,
-				186763142149636F004BF4D8 /* Info.plist */,
-				186763152149636F004BF4D8 /* main.m */,
+				1804536E214ABF0E0097A582 /* Main */,
+				1804536F214ABF240097A582 /* Resource */,
 			);
 			path = YXGame;
 			sourceTree = "<group>";
@@ -333,7 +349,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64QULGHA36;
-				INFOPLIST_FILE = YXGame/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/YXGame/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -351,7 +367,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64QULGHA36;
-				INFOPLIST_FILE = YXGame/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/YXGame/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
