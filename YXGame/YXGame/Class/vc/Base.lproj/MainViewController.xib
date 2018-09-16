@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
+            <connections>
+                <outlet property="helpBtn" destination="2dL-u2-1sb" id="PpY-02-dg5"/>
+                <outlet property="historyBtn" destination="pdi-yE-jdC" id="UL2-rG-vFY"/>
+                <outlet property="newgameBtn" destination="UDr-FM-4a2" id="dbf-zN-P2n"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="数独游戏" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T7n-I4-Bek">
+                    <rect key="frame" x="97" y="100" width="181" height="54"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UDr-FM-4a2">
+                    <rect key="frame" x="137.5" y="300" width="100" height="40"/>
+                    <state key="normal" title="新游戏">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="beginGame:" destination="-1" eventType="touchUpInside" id="a7Y-oZ-SMF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdi-yE-jdC">
+                    <rect key="frame" x="137.5" y="365" width="100" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="gRJ-2w-RaT"/>
+                        <constraint firstAttribute="width" constant="100" id="hLS-7F-2nu"/>
+                    </constraints>
+                    <state key="normal" title="历史记录">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="lookHistory:" destination="-1" eventType="touchUpInside" id="iE9-SO-2wX"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2dL-u2-1sb">
+                    <rect key="frame" x="137.5" y="430" width="100" height="40"/>
+                    <state key="normal" title="帮助">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="lookHelp:" destination="-1" eventType="touchUpInside" id="Slq-zd-L8Z"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.54509803921568623" green="0.55686274509803924" blue="0.71764705882352942" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="UDr-FM-4a2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="centerY" multiplier="600:667" id="45D-S9-sMd"/>
+                <constraint firstItem="UDr-FM-4a2" firstAttribute="height" secondItem="pdi-yE-jdC" secondAttribute="height" id="6ZO-nO-4od"/>
+                <constraint firstItem="2dL-u2-1sb" firstAttribute="width" secondItem="pdi-yE-jdC" secondAttribute="width" id="8uw-qb-gMh"/>
+                <constraint firstItem="pdi-yE-jdC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="DtA-Vg-9KR"/>
+                <constraint firstItem="T7n-I4-Bek" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="centerY" multiplier="200:667" id="GcL-g3-sNT"/>
+                <constraint firstItem="UDr-FM-4a2" firstAttribute="width" secondItem="pdi-yE-jdC" secondAttribute="width" id="KDv-HB-7YJ"/>
+                <constraint firstItem="UDr-FM-4a2" firstAttribute="centerX" secondItem="pdi-yE-jdC" secondAttribute="centerX" id="LWr-2z-xsi"/>
+                <constraint firstItem="2dL-u2-1sb" firstAttribute="height" secondItem="pdi-yE-jdC" secondAttribute="height" id="WBh-8I-u3w"/>
+                <constraint firstItem="2dL-u2-1sb" firstAttribute="top" secondItem="pdi-yE-jdC" secondAttribute="bottom" constant="25" id="YYN-1j-vkx"/>
+                <constraint firstItem="pdi-yE-jdC" firstAttribute="top" secondItem="UDr-FM-4a2" secondAttribute="bottom" constant="25" id="gAh-Xq-K7X"/>
+                <constraint firstItem="T7n-I4-Bek" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kCN-fe-Ie1"/>
+                <constraint firstItem="2dL-u2-1sb" firstAttribute="centerX" secondItem="pdi-yE-jdC" secondAttribute="centerX" id="lpX-AE-09C"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+</document>

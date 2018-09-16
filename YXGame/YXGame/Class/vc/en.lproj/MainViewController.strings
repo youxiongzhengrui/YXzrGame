@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "帮助"; ObjectID = "2dL-u2-1sb"; */
+"2dL-u2-1sb.normalTitle" = "Help";
+
+/* Class = "UILabel"; text = "Sudoku"; ObjectID = "T7n-I4-Bek"; */
+"T7n-I4-Bek.text" = "Sudoku";
+
+/* Class = "UIButton"; normalTitle = "新游戏"; ObjectID = "UDr-FM-4a2"; */
+"UDr-FM-4a2.normalTitle" = "New Game";
+
+/* Class = "UIButton"; normalTitle = "历史记录"; ObjectID = "pdi-yE-jdC"; */
+"pdi-yE-jdC.normalTitle" = "History";

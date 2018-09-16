@@ -6,6 +6,7 @@ target 'YXGame' do
   # use_frameworks!
    pod 'Masonry'
    pod 'MBProgressHUD'
+   pod 'MJExtension', '~> 3.0.13'
 
   # Pods for YXGame
 
