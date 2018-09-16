@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "YXRootViewController.h"
+#import "MainViewController.h"
+#import "BaseNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +22,8 @@
     
     self.window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[YXRootViewController alloc] init];
+    BaseNavigationController *nav = [[BaseNavigationController alloc] initWithRootViewController:[[MainViewController alloc] init]];
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible ];
     return YES;
 }

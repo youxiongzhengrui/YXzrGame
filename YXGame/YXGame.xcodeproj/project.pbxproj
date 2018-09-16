@@ -185,16 +185,16 @@
 			isa = PBXGroup;
 			children = (
 				18B905E3214EC0E500C813B1 /* MainViewController.strings */,
-				18B905E6214EC0E500C813B1 /* HistoryViewController.m */,
-				18B905E7214EC0E500C813B1 /* HelpViewController.xib */,
-				18B905E8214EC0E500C813B1 /* GameViewController.m */,
-				18B905E9214EC0E500C813B1 /* HelpViewController.h */,
-				18B905EA214EC0E500C813B1 /* MainViewController.xib */,
-				18B905EC214EC0E500C813B1 /* MainViewController.m */,
 				18B905ED214EC0E500C813B1 /* HistoryViewController.h */,
-				18B905EE214EC0E500C813B1 /* GameViewController.h */,
-				18B905EF214EC0E500C813B1 /* MainViewController.h */,
+				18B905E6214EC0E500C813B1 /* HistoryViewController.m */,
+				18B905E9214EC0E500C813B1 /* HelpViewController.h */,
 				18B905F0214EC0E500C813B1 /* HelpViewController.m */,
+				18B905E7214EC0E500C813B1 /* HelpViewController.xib */,
+				18B905EE214EC0E500C813B1 /* GameViewController.h */,
+				18B905E8214EC0E500C813B1 /* GameViewController.m */,
+				18B905EF214EC0E500C813B1 /* MainViewController.h */,
+				18B905EC214EC0E500C813B1 /* MainViewController.m */,
+				18B905EA214EC0E500C813B1 /* MainViewController.xib */,
 			);
 			path = vc;
 			sourceTree = "<group>";
